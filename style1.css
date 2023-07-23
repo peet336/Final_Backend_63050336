@@ -1,0 +1,30 @@
+/* padding เป็นระยะขอบเข้ามาข้างใน ส่วน margin จากระยะขอบออกไปข้างนอก*/
+/* .btn {
+  padding: 20px;
+  margin: 20px;
+} */
+
+/* .box {
+  border: 1px solid #cc1111;
+   display เป็นการแสดงเต็มหน้าจอ หรือ การเว้นบรรทัด 
+   display: block; 
+} */
+
+/* ////////////////////////////////////// */
+
+/* .container {
+  height: 400px;
+  width: 100%;
+
+  border: 2px solid red;
+  position: relative;
+}
+
+.text {
+  position: absolute; หรือ จะใช้ position :sticky เป็นการทำให้เวลาเลื่อนหน้าจอลงตัวบนนั้นก็ยังอยูขบบ่นหน้าจอ ปกติจะใช้กับ top เท่านั้น
+   top bottom left right 
+   ห่างจากข้างล่าง 
+  bottom: 0;
+   ห่างจากข้างซ้าย 
+  right: 0;
+ }  

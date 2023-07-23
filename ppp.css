@@ -1,0 +1,24 @@
+body {
+  background-image: url(/boat.webp);
+  font-family: roller;
+  background-color: aliceblue;
+}
+h1 {
+  color: rgb(red, green, blue);
+  text-align: center;
+  text-transform: uppercase;
+  background-color: palegreen;
+  background-position: top;
+}
+input {
+  border: 1px solid red;
+  font-family: sans-serif;
+}
+button {
+  background-color: paleturquoise;
+  border-radius: 25px;
+}
+button:hover {
+  background-color: brown;
+  cursor: pointer;
+}

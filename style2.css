@@ -1,0 +1,76 @@
+body {
+  padding: 20px;
+}
+
+/* ที่ container จะsetเป็น position relative เพราะฉะนั้นกรอบทั้งหมดจะถูกตั้งค่าให้เป็นกอบที่เอาไว้setตัว absolute */
+.container {
+  border: 3px solid black;
+  /* height: 400px; */
+  width: 100%;
+  position: relative;
+}
+
+.tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+.header {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.244);
+  margin-top: 0;
+  padding: 10px;
+}
+
+.image {
+  width: 200px;
+  object-fit: cover;
+}
+
+small {
+  color: grey;
+}
+
+.box-color {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  margin: 2px;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.box-green {
+  background-color: green;
+}
+
+.box-blue {
+  background-color: blue;
+}
+
+.box-pink {
+  background-color: pink;
+}
+
+.product-detai-list {
+  list-style-type: circle;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scaleY(1.1);
+}

@@ -1,0 +1,47 @@
+* {
+  background-color: antiquewhite;
+  /* เปลี่ยนตังอักษรทั้งหมดเป็น font */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header{
+    color: rgb(200, 120, 20);
+    text-align: center;
+    text-transform: uppercase; 
+    background-color: khaki;  
+    text-shadow: 2px 2px 2px; 
+}
+
+
+  /* h1 {
+  color: rgb(200, 120, 20);
+   ข้อความไว้ตรงกลาง 
+  text-align: center;
+  ข้อความเป็นพิมพ์ใหญ่ทั้งหมด ถ้าเปลี่ยนเป็น lowercase จะเป็นพิมพ์เล็กทั้งหมด capitalize เป็นตัวแรกตัวใหญ่ 
+     text-transform: uppercase; 
+   background-color: khaki; 
+   เป็นเงาของข้อความ 
+   text-shadow: 2px 2px 2px;   */
+}
+
+input {
+  /* เป็นสีของเส้นขอบ */
+  border: 1px solid red;
+  /* ความโค้งของเส้น */
+  border-radius: 25px;
+}
+button {
+  /* สีพื้นหลังที่เป็นปุ่มกด */
+  background-color: aqua;
+  /* สีเส้นขอบข้อความที่กด */
+  border: 1px solid darkgoldenrod;
+  color: darkgreen;
+  border-radius: 25px;
+}
+
+button:hover {
+  /* เมื่อเอาเมามาตรงปุ่มสีจะเปลี่ยน */
+  background-color: blueviolet;
+  /* เมื่อเอาเมามาตรงปุ่มลูกศรเมาเปลี่ยนเป็นนิ้วมือ */
+  cursor: pointer;
+}
