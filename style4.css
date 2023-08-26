@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  background-color: rgb(16, 17, 21);
+  color: white;
+}
+
+.banner {
+  height: 800px;
+  background-image: url(https://images.unsplash.com/photo-1658457459792-f4dfe37407ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80);
+  background-position: top center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.banner-from {
+  text-align: center;
+  padding: 150px;
+  color: white;
+  justify-content: center;
+}
+
+.banner-from > small {
+  background-color: rgba(0, 0, 0, 0.445);
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.banner-from > button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.banner-from > h1 {
+  font-size: 80px;
+}
+
+.banner-from > p {
+  font-size: 25px;
+}
+
+/* /////////////////////// */
+.blog {
+  background-color: rgb(19, 22, 27);
+  border: 3px solid black;
+  border-radius: 50px;
+  padding: 30px;
+  margin: 120px;
+}
+
+.blog-text {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.blog-text > h1 {
+  font-size: 40px;
+}
+
+.blog-text > p {
+  font-size: 25px;
+}
+
+/* //////////////////////// */
+
+.itam-text {
+  padding: 2px;
+  text-align: center;
+}
+
+.itam-text > h1 {
+  font-size: 40px;
+}
+
+.itam-text > p {
+  font-size: 25px;
+}
+
+.itam-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: white;
+}
+
+.itam-card {
+  width: 200px;
+  margin: auto;
+  position: relative;
+  object-fit: cover;
+}
+
+.itam-card > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
